@@ -1,0 +1,86 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white#000;
+
+}
+
+section{
+        
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url(/icons/387747174_816363057163989_4063056672404451436_n.jpg) ;
+        color: white;
+        padding-top: 50px;
+        gap: 50px;
+
+}
+button{
+        width: 100px;
+        height: 43px;
+        border: transparent;
+        border-radius: 5px;
+        font-size: 14pt;
+        background-color: darkblue;
+        color: white;
+}
+form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+input[type='text']{
+        width: 600px;
+        height: 40px;
+        font-size: 14pt;
+        border: transparent;
+}
+h1{
+        font-size: 34pt;
+}
+#tarefas{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 800px;
+        height: 400px;
+        background-color: white;
+        bottom: 0;
+        margin-bottom: 10px;
+        flex-direction: column;
+        gap:20px ;
+        overflow-y: scroll;
+        padding-top: 40px;
+        position: fixed;
+        padding-bottom: 30px;
+}
+img{
+        height: 30px;
+}
+.tarefa{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        height: 80px;
+        background-color: darkblue;
+        padding: 20px;
+        font-size: 14pt;
+        align-items: center;
+        border: transparent;
+        border-radius: 7px;
+       
+       
+}
+.opt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+}
