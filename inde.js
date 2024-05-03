@@ -31,14 +31,20 @@ window.onload = function () {
                             const eliminar = document.querySelectorAll('.eliminar')
                         eliminar.forEach((elemento) => {
                                 elemento.addEventListener('click', () => {
-                                const pai = elemento.parentElement
-                                const avo = pai.parentElement
+                                let pai = elemento.parentElement
+                                let avo = pai.parentElement
                                 avo.style.display = 'none'
                         })
                                 
                         }
                         )
+
+                        const completar = document.querySelectorAll("input[type='radio']")
+                        completar.forEach((element) => {
+                                let pai = element.parentElement
+                                let avo = pai.parentElement
                         
+                        })
 
                 }
         })
